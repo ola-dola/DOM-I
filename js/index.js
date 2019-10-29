@@ -71,3 +71,35 @@ const ctaImage = document.getElementById('cta-img');
 ctaImage.src = siteContent.cta["img-src"];
 
 //---Top Content----
+let featuresHeading = document.querySelector('.main-content .top-content .text-content:nth-of-type(1) h4');
+featuresHeading.textContent = siteContent["main-content"]["features-h4"];
+
+let featuresText = document.querySelector('.main-content .top-content .text-content:nth-of-type(1) p');
+featuresText.textContent = siteContent["main-content"]["features-content"];
+
+let aboutHead = document.querySelector('.main-content .top-content .text-content:nth-of-type(2) h4');
+aboutHead.textContent = siteContent["main-content"]["about-h4"];
+
+let aboutText = document.querySelector('.main-content .top-content .text-content:nth-of-type(2) p');
+aboutText.textContent = siteContent["main-content"]["about-content"];
+
+let midImage = document.getElementById('middle-img');
+midImage.src = siteContent["main-content"]["middle-img-src"];
+
+let serviceHead = document.querySelector('.main-content .bottom-content .text-content:nth-of-type(1) h4');
+serviceHead.textContent = siteContent["main-content"]["services-h4"];
+
+let serviceText = document.querySelector('.main-content .bottom-content .text-content:nth-of-type(1) p');
+serviceText.textContent = siteContent["main-content"]["services-content"];
+
+let productHead = document.querySelector('.main-content .bottom-content .text-content:nth-of-type(2) h4');
+productHead.textContent = siteContent["main-content"]["product-h4"];
+
+let productText = document.querySelector('.main-content .bottom-content .text-content:nth-of-type(2) p');
+productText.textContent = siteContent["main-content"]["product-content"];
+
+let visionHead = document.querySelector('.main-content .bottom-content .text-content:nth-of-type(3) h4');
+visionHead.textContent = siteContent["main-content"]["vision-h4"];
+
+let visionText = document.querySelector('.main-content .bottom-content .text-content:nth-of-type(3) p');
+visionText.textContent = siteContent["main-content"]["vision-content"];
