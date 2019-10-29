@@ -119,3 +119,19 @@ email.textContent = siteContent.contact["email"];
 
 let footer = document.querySelector('footer p');
 footer.textContent = siteContent.footer["copyright"];
+
+//----TAsk 3-----
+const nav = document.getElementsByTagName('a');
+const navArr = Array.from(nav);
+navArr.forEach(a => a.style.color = 'green');
+
+const newNav = document.querySelector('header nav');
+newNavChild = document.createElement('a');
+newNavChild.textContent = 'Careers';
+
+newNav.appendChild(newNavChild);
+
+
+navChild = document.createElement('a');
+navChild.textContent = 'Homepage';
+newNav.prepend(navChild);
