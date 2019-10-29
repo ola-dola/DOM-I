@@ -61,3 +61,13 @@ const nav6 = document.querySelector('a:nth-of-type(6)');
 nav6.textContent = siteContent["nav"]["nav-item-6"];
 
 //---Cta Section----
+const ctaHead = document.querySelector('.cta .cta-text h1');
+ctaHead.textContent = siteContent.cta["h1"];
+
+const ctaButton = document.querySelector('.cta .cta-text button');
+ctaButton.textContent = siteContent.cta["button"];
+
+const ctaImage = document.getElementById('cta-img');
+ctaImage.src = siteContent.cta["img-src"];
+
+//---Top Content----
